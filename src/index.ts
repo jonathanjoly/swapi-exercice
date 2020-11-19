@@ -1,1 +1,1 @@
-console.log("Test TS");
+export const testMe = ()=> 42;
