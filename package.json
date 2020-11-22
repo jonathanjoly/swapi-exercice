@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "changelog": "conventional-changelog -p conventional -i CHANGELOG.md -s",
+    "changelog": "conventional-changelog -p conventional -i CHANGELOG.md -s -r 0",
     "commit": "cz",
     "build": "tsc",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
