@@ -3,7 +3,7 @@ import type { Film } from '../interfaces';
 
 
 export default class API {
-    #entrypoint: string = 'https://swapi.dev/dapi';
+    #entrypoint: string = 'https://swapi.dev/api';
 
     get<T>(url: string): Promise<T> {
         return new Promise(async (resolve, reject) => {
