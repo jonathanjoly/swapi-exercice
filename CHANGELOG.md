@@ -1,5 +1,11 @@
-## 1.0.0 (2020-11-22)
+## 1.0.0 (2020-11-27)
 
+* refactor(import and private): gather import by library ([3345c4d](https://github.com/jonathanjoly/swapi-exercice/commit/3345c4d))
+* refactor(service index): create index to ease the import of services ([1f85131](https://github.com/jonathanjoly/swapi-exercice/commit/1f85131))
+* refactor(services index): create an index file to ease the import of services ([afc3236](https://github.com/jonathanjoly/swapi-exercice/commit/afc3236))
+* ci(changelog): add conventional changelog ([7bb695a](https://github.com/jonathanjoly/swapi-exercice/commit/7bb695a))
+* ci(changelog): rewrite the changelog instead of adding ([b2c6c13](https://github.com/jonathanjoly/swapi-exercice/commit/b2c6c13))
+* ci(commitizen): add commitizen tool ([b8def1f](https://github.com/jonathanjoly/swapi-exercice/commit/b8def1f))
 * docs(changelog): update the changelog ([ee0fe76](https://github.com/jonathanjoly/swapi-exercice/commit/ee0fe76))
 * docs(update doc): add doc for the exercice ([f2b02e2](https://github.com/jonathanjoly/swapi-exercice/commit/f2b02e2))
 * build(dependencies and config): update the dependencies and modify configurations ([9d158e9](https://github.com/jonathanjoly/swapi-exercice/commit/9d158e9))
@@ -13,11 +19,7 @@
 * feat(models): create API class to access swapi ([e0593d4](https://github.com/jonathanjoly/swapi-exercice/commit/e0593d4))
 * feat(New project): :tada: First commit ([d39c723](https://github.com/jonathanjoly/swapi-exercice/commit/d39c723))
 * feat(planet service): create a class planet service ([4db3c95](https://github.com/jonathanjoly/swapi-exercice/commit/4db3c95))
-* refactor(service index): create index to ease the import of services ([1f85131](https://github.com/jonathanjoly/swapi-exercice/commit/1f85131))
-* refactor(services index): create an index file to ease the import of services ([afc3236](https://github.com/jonathanjoly/swapi-exercice/commit/afc3236))
 * test(jest): add jest ([3a7f488](https://github.com/jonathanjoly/swapi-exercice/commit/3a7f488))
-* ci(changelog): add conventional changelog ([7bb695a](https://github.com/jonathanjoly/swapi-exercice/commit/7bb695a))
-* ci(commitizen): add commitizen tool ([b8def1f](https://github.com/jonathanjoly/swapi-exercice/commit/b8def1f))
 
 
 
