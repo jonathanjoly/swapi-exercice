@@ -1,6 +1,6 @@
 import { toNumber } from 'lodash';
-import ComputerService from '../services/computer.service';
 import logger from 'node-color-log';
+import ComputerService from '../services/computer.service';
 
 const logMessage = (message: string): void => {
     logger.color('blue').log('[R2-D2]: Bip Bop Bip Huuu');

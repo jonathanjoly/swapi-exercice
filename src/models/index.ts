@@ -3,7 +3,7 @@ import type { Film } from '../interfaces';
 
 
 export default class API {
-    #entrypoint: string = 'https://swapi.dev/api';
+    private entrypoint: string = 'https://swapi.dev/api';
 
     get<T>(url: string): Promise<T> {
         return new Promise(async (resolve, reject) => {
@@ -18,7 +18,7 @@ export default class API {
     }
 
     getfilm(filmNumber: number): Promise<Film> {
-        return this.get<Film>(`${this.#entrypoint}/films/${filmNumber}`);
+        return this.get<Film>(`${this.entrypoint}/films/${filmNumber}`);
     };
 
     getMultiple<T>(urls: string[]): Promise<T[]> {

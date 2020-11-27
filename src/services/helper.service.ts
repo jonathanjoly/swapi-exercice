@@ -1,6 +1,4 @@
-import toNumber from 'lodash/toNumber';
-import isNaN from 'lodash/isNaN';
-import get from 'lodash/get';
+import { toNumber, isNaN, get } from 'lodash';
 
 type Condition<T> = (item: T) => boolean;
 

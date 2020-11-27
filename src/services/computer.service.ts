@@ -1,9 +1,8 @@
+import { isNaN, isNumber } from 'lodash';
 import { Planet } from '../interfaces';
-
 import PlanetService from './planet.service';
 import Helpers from './helper.service';
-import isNumber from 'lodash/isNumber';
-import isNaN from 'lodash/isNaN';
+
 
 export default class ComputerService {
     planetService = new PlanetService();
